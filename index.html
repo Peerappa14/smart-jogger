@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Jogger</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🏃 Smart Jogger</h1>
+
+  <div class="controls">
+    <button onclick="startJog()">Start Jog</button>
+    <button onclick="stopJog()">Stop Jog</button>
+  </div>
+
+  <div id="mapContainer">
+    <div id="map"></div>
+    <img src="assets/jogger-cartoon.png" alt="Jogger" id="joggerImg" />
+    
+  </div>
+
+  <canvas id="statsCanvas" width="400" height="120"></canvas>
+  <p id="networkStatus">Checking network status...</p>
+
+  <script src="app.js"></script>
+</body>
+</html>
