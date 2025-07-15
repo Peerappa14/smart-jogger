@@ -6,7 +6,8 @@ A real-time GPS-based jogging tracker built using modern Web APIs. This interact
 
 ## 📸 Live Demo Screenshot
 
-> ![Smart Jogger App Preview](assets/demo-preview.png)
+> ![Smart Jogger App Preview]<img src="assets/Home.png" alt="" width="200"/>
+
 
 ---
 
